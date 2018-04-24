@@ -3,4 +3,4 @@ all: build
 build:
 
 install:
-	install -m 755 installkernel /usr/sbin
+	install -D -m 755 --target-directory=${DESTDIR}/usr/sbin installkernel
